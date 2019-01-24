@@ -35,7 +35,7 @@ y=labelencoder_y.fit_transform(X[:,0])
 # splitting to train and test
 # =============================================================================
 from sklearn.model_selection import train_test_split 
-X_train,X_split,Y_train,Y_split =train_test_split(X,y,test_size=0.2,random_state=0)
+X_train,X_test,Y_train,Y_test =train_test_split(X,y,test_size=0.2,random_state=0)
 
 
 
